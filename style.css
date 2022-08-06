@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    padding: 0;
+}
+
+.first {
+    height: 800px;
+    background-image: url('https://zuri.team/img/hero-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    margin-bottom: 65px;
+}
+
+.header-text{
+    text-align: center; 
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #514949;
+}
+
+.header-text h1{
+    margin-bottom: 2em;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #514949;
+    line-height: 55px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(219, 24, 24);
+}
+
+a:hover{
+    color: rgb(141, 9, 9);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.white-fill{
+    margin-left: 5em;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgb(223, 22, 22);
+    color: rgb(223, 22, 22);
+    background-color: #fff;
+}
+
+.white-fill:hover{
+    background-color: rgb(228, 32, 32);
+    color: #fff;
+}
+
+.red-fill{
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgb(228, 32, 32);
+    background-color: rgb(228, 32, 32);
+    color: #fff;
+}
+
+.red-fill:hover{
+    color: rgb(223, 22, 22);
+    background-color: #fff;
+}
